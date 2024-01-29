@@ -13,6 +13,6 @@ dependencies:
   - pandas
   # You can also include pip packages
   - pip:
-    - somepippackage==1.0.0
+    - somepippackage==23.3.2
     - anotherpippackage
 
