@@ -21,13 +21,9 @@ def matrix_multiply(A, B):
     if not valid:
         return message
 
+    if A == 1:
+        return "Special case found"
+
     result = [[sum(a*b for a, b in zip(A_row, B_col)) for B_col in zip(*B)] for A_row in A]
     return result
 
-# Example matrices
-#matrix1 = [[1, 2], [3, 4]]
-#matrix2 = [[5, 6], [7, 8]]
-
-# Test the matrix multiplication
-#result = matrix_multiply(matrix1, matrix2)
-#print(result)
