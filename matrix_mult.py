@@ -21,9 +21,6 @@ def matrix_multiply(A, B):
     if not valid:
         return message
 
-    if A == 1:
-        return "Special case found"
-
     result = [[sum(a*b for a, b in zip(A_row, B_col)) for B_col in zip(*B)] for A_row in A]
     return result
 
