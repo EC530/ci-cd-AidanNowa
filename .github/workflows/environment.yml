@@ -1,0 +1,18 @@
+name: myenv
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - flake8
+  - pytest
+  - pytest-cov  # If you want to measure code coverage
+  # Add any other dependencies your project needs
+  # For example, if you're using numpy and pandas:
+  - numpy
+  - pandas
+  # You can also include pip packages
+  - pip:
+    - somepippackage==1.0.0
+    - anotherpippackage
+
