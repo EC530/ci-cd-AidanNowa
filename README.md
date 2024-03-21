@@ -27,4 +27,17 @@ docker run -it python-imagename
 
 (-it allows for terminal interaction)
 
+## Example
+![docker_working](https://github.com/EC530/ci-cd-AidanNowa/assets/98485635/67e9a61e-9ee6-4b0a-ac9b-f4939325c24c)
+
+
+## PIP
+There has also been a successful pip build, but it has not been added to the Python Package Index.
+
+The tar.gz file can be found in this repo.
+![successful_pip_build](https://github.com/EC530/ci-cd-AidanNowa/assets/98485635/a6c10c39-447e-4912-a8c6-53b88b06d07f)
+
+
+
+
 
