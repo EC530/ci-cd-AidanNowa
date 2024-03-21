@@ -25,4 +25,6 @@ docker run python-imagename
 
 docker run -it python-imagename
 
+(-it allows for terminal interaction)
+
 
