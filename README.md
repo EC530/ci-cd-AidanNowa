@@ -15,3 +15,14 @@ If you want to utilize the matrix multiplication function, import the matrix_mul
 
 ## What was learned?
 Overall this exercise worked as an effective teaching tool to familiarize myself with some of the functionality of a repo beyond just version control.
+
+# Dockerized Version
+This project comes with a Dockerfile that allows users to easily download and run the project.
+
+To prepare it, within the directory that the Dockerfile is in fun the following commands:
+
+docker run python-imagename
+
+docker run -it python-imagename
+
+
