@@ -7,7 +7,6 @@ from matrix_mult import matrix_multiply
     ([[0,0], [1,1]], [[1,1], [0,0]], [[0,0], [1,1]]),
     ([[1,1], [1,1]], [[0,0], [0,0]], [[0,0], [0,0]]),
     ([[1,2,3], [4,5,6], [7,8,9]], [[1,2],[3,4],[5,6]], [[22,28],[49,64],[76,100]]),
-    #([[1,2,3]], [[1],[2],[3]], 14),
     ([[1,1,1], [2,2,2], [3,3,3]], [[1,1],[2,2]], "Incompatible matrix sizes for multiplication."),  # Incorrect matrix dimensions
     ([[]], [[1,2],[3,4]], "One of the matrices is empty.")  # Empty matrix
 ])
